@@ -11,6 +11,17 @@
       height: fit-content;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .work-details {
+      flex-direction: column;
+      text-align: center;
+      padding: 1rem;
+    }
+    .work-details img {
+      margin-bottom: 0.5rem;
+    }
+  }
   
   @media screen and (max-width: 1200px) {
     #desktop-nav {
@@ -45,6 +56,18 @@
     .about-containers {
       margin-top: 0;
     }
+
+    section {
+      margin: 0 5%;
+    }
+    #work-experience {
+      margin: 0 auto;
+      width: 90%;
+    }
+    .work-containers {
+      width: 95%;
+    }
+  
   }
   
   @media screen and (max-width: 600px) {
@@ -99,5 +122,14 @@
     }
     .text-container {
       text-align: justify;
+    }
+
+    .work-containers {
+      width: 90%; /* Match other sections */
+    }
+    .work-details {
+      flex-direction: column;
+      text-align: center;
+      padding: 0.8rem;
     }
   }
