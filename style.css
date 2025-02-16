@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+link[rel="icon"] {
+  border-radius: 50%; /* Makes the favicon appear circular */
+  overflow: hidden;
+}
+
 .logo-img {
   height: 250px; /* Adjust the height as needed */
   width: auto;
