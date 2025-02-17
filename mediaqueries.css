@@ -17,11 +17,14 @@
       flex-direction: column;
       text-align: center;
       padding: 1rem;
+      width: 90%; /* Reduce width for better centering */
+      margin: 0 auto; /* Ensure it's centered */
     }
     .work-details img {
       margin-bottom: 0.5rem;
     }
   }
+
   
   @media screen and (max-width: 1200px) {
     #desktop-nav {

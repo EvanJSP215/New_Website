@@ -107,7 +107,7 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
-.menu-links {
+/* .menu-links {
   position: absolute;
   top: 100%;
   right: 0;
@@ -116,7 +116,31 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+} */
+.menu-links {
+  position: absolute;
+  top: 60px; /* Ensures menu appears below X button */
+  right: 10px;
+  background-color: white;
+  width: 200px; /* Set width */
+  border-radius: 10px; /* Rounded edges */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: 300px; /* Limits the height */
+  overflow-y: auto; /* Enables vertical scrolling */
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 0;
 }
+
+.menu-links.open {
+  max-height: 400px; /* Expand if needed */
+  opacity: 1;
+}
+
 
 .menu-links a {
   display: block;
