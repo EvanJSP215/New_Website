@@ -410,9 +410,14 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
+  /* border-radius: 2rem;
   width: 90%;
-  height: 90%;
+  height: 90%; */
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 2rem;
 }
 
 .project-title {
