@@ -2,9 +2,7 @@
 This is my personal website! 
 
 ## Overview
-This is a Personal Portfolio Website with different sections showcasing my experiences and abilities as an upcoming Computer Science Graduate!
-
-This Website is done in pure HTML/CSS and Javascript
+This is a Personal Portfolio Website with different sections showcasing my experiences and abilities as an upcoming Computer Science Graduate! This portfolio website was done in pure HTML/CSS and Javascript.
 
 Disclaimer: This website was developed in close observation of an online tutorial with modifications to add in multiple sections and designs.
 
